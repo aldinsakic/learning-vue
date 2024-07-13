@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Counter from './components/Counter.vue'
+import TextReverser from './components/TextReverser.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Counter from './components/Counter.vue'
   <main>
     <TheWelcome />
     <Counter />
+    <TextReverser />
   </main>
 </template>
 
