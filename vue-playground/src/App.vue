@@ -7,7 +7,7 @@ import TextReverser from './components/TextReverser.vue'
 
 <template>
   <header>
-    <img alt="logo" class="logo" src="./assets/logo.png" width="125" height="125" />
+    <img alt="logo" class="logo" src="./assets/me.jpeg" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="Vue Playground!" />

@@ -14,7 +14,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>About me</template>
 
-    Hi, I am Gee.
+    Hi, I am Aldin.
     <!-- <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a> -->
   </WelcomeItem>
 
