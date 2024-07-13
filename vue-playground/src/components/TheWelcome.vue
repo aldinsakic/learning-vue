@@ -12,14 +12,13 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>About me</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    Hi, I am Gee.
+    <!-- <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a> -->
   </WelcomeItem>
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
@@ -73,16 +72,15 @@ import SupportIcon from './icons/IconSupport.vue'
     the official
     <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
     twitter account for latest news in the Vue world.
-  </WelcomeItem>
+  </WelcomeItem> -->
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <!-- <template #heading>Support Vue</template> -->
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    Built with Vue.
+    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">Support Vue</a>.
   </WelcomeItem>
 </template>

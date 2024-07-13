@@ -9,17 +9,16 @@ function increment(){
 </script>
 
 <template>
-  <button @click="increment">{{ count }}</button>
+  <button class="pinkBg" @click="increment">{{ count }}</button>
 </template>
 
 <style scoped>
   button{
-    background-color: #ba66ba;
     border: none;
-    border-radius: 50%;
-    width: 50px;
+    width: 150px;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 24pt;
+    color: var(--color-text);
   }
 </style>

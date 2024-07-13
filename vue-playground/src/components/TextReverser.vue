@@ -14,13 +14,14 @@ function onInput(e) {
 </template>
 
 <style scoped>
-  button{
-    background-color: #ba66ba;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
+  input{
     height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    background: rgb(186,102,186);
+    background: linear-gradient(90deg, rgba(186,102,186,1) 0%, rgba(0,0,0,1) 80%);
+    border: none;
+    color: var(--color-text);
   }
 </style>
